@@ -1,0 +1,7 @@
+
+
+sudo systemctl stop mosquitto
+sudo systemctl disable mosquitto
+sudo apt purge -y mosquitto
+sudo apt autoremove -y
+sudo rm -rf /etc/mosquitto/conf.d/additional.conf

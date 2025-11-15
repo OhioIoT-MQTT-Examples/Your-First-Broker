@@ -1,0 +1,7 @@
+
+
+sudo apt update -y
+sudo apt install -y mosquitto
+echo "listener 1883" | sudo tee /etc/mosquitto/conf.d/additional.conf
+echo "allow_anonymous true" | sudo tee -a /etc/mosquitto/conf.d/additional.conf
+sudo systemctl restart mosquitto
