@@ -14,8 +14,8 @@ This code is designed for demonstration purposes only.  With a running MQTT brok
 - Download https://mosquitto.org/files/binary/win64/mosquitto-2.0.22-install-windows-x64.exe
 - Run It
 - Add the following lines to ***C:\Program Files\mosquitto\mosquitto.conf***:
-    - listener 1883
-    - allow_anonymous true 
+    - `listener 1883`
+    - `allow_anonymous true`
 - Go to Services and restart Mosquitto
 
 ### Mosquitto Installation - Rasbperry Pi
