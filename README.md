@@ -2,7 +2,7 @@
 
 
 ## Overview
-This code can be used to attach two ESP32s to a local MQTT broker.  The code is overly-simplistic, and serves just to get you attached as quickly as possible.  See the YouTube video [MQTT - Your First Broker](https://www.youtube.com/watch?v=k9CnF3siO6s).  👉 Subscribe to the [OhioIoT YouTube Channel](https://www.youtube.com/@OhioIoT?sub_confirmation=1) for more on All Things IoT: hardware, firmware, connectivity, cloud computing, and dev toolkit.
+This code is designed for demonstration purposes only.  With a running MQTT broker, you can program two ESP32s as examples of how devices can publish and subscribe on the network.  See the YouTube video [MQTT - Your First Broker](https://www.youtube.com/watch?v=k9CnF3siO6s).  👉 Subscribe to the [OhioIoT YouTube Channel](https://www.youtube.com/@OhioIoT?sub_confirmation=1) for more on All Things IoT: hardware, firmware, connectivity, cloud computing, and dev toolkit.
 
 ## Getting Started
 
