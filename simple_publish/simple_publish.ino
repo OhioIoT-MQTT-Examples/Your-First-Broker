@@ -7,9 +7,9 @@
 WiFiClient wifi_client;
 PubSubClient mqtt_client;
 
-#define WIFI_SSID "CenturyLink0447"
-#define WIFI_PASS "change_after_video"
-#define MQTT_HOST "192.168.0.69"
+#define WIFI_SSID "[YOUR WIFI SSID]"
+#define WIFI_PASS "[YOUR WIFI PASS]"
+#define MQTT_HOST "[THE IP ADDRESS OF YOUR BROKER]"
 #define MQTT_PORT 1883
 #define CLIENT_ID "my_first_publisher"
 
